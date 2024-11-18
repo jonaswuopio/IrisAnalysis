@@ -1,6 +1,8 @@
+library(renv)
 library(tidyverse)
 library(ggplot2)
 
+renv::snapshot()
 
 data("iris")
 
